@@ -1,0 +1,84 @@
+body {
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+}
+
+#banner {
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+    height: 600px;
+}
+
+.center {
+    /* position: relative; */
+    position: absolute;
+    padding-top: 10%;
+    width: 100%;
+    text-align: center;
+}
+
+#banner h1 {
+    font-size: 65px;
+    font-weight: 900;
+    margin-bottom: 0;
+    color: white;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to right, rgb(0, 255, 89), rgb(0, 174, 255), rgb(30, 0, 128));
+    padding: 13px 20px;
+    border-radius: 10px;
+}
+
+#banner p {
+    margin-bottom: 50px;
+    color: white;
+}
+
+/* start donate today */
+
+#donate-amount {
+    margin-bottom: 50px;
+}
+
+#donate-amount h1 {
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+#donate-amount p {
+    color: rgba(0, 0, 0, 0.623);
+    font-weight: 900;
+}
+
+.flex {
+    display: flex;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.flex span {
+    margin: 10px;
+    padding: 45px 20px;
+    border: 2px solid rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0.694);
+    font-size: 25px;
+    font-weight: 900;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+
+#single-taka {
+    color: rgba(169, 35, 35, 0.753);
+    border: 2px solid rgba(169, 35, 35, 0.671);
+}
+
+.form-amout {
+    margin-bottom: 50px;
+}
