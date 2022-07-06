@@ -168,3 +168,51 @@ body {
     padding: 14px 30px;
     border: 0;
 }
+
+/* aid tracker start */
+
+.aid {
+    text-align: center;
+}
+
+.aid h1 {
+    font-size: 46px;
+    margin-bottom: 0;
+}
+
+.relief-aid {
+    display: flex;
+    width: 74%;
+    margin-left: 150px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 30px;
+}
+
+.sub-relief {
+    margin: 0 80px;
+}
+
+.relief-aid h1 {
+    font-size: 60px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.margin-bottom {
+    margin-bottom: 120px;
+}
+
+/* footer starts */
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 120px;
+    padding-top: 40px;
+}
+
+footer h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: brown;
+}
