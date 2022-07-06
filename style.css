@@ -28,8 +28,8 @@ body {
     text-decoration: none;
     color: white;
     background-image: linear-gradient(to right, rgb(0, 255, 89), rgb(0, 174, 255), rgb(30, 0, 128));
-    padding: 13px 20px;
-    border-radius: 10px;
+    padding: 12px 20px;
+    border-radius: 4px;
 }
 
 #banner p {
@@ -132,4 +132,39 @@ body {
 
 .card-education {
     background-color: rgba(251, 3, 3, 0.174);
+}
+
+/* get updates css start here*/
+
+.get-updates {
+    text-align: center;
+}
+
+.get-updates h1 {
+    font-size: 44px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.get-updates p {
+    color: gray;
+    margin-bottom: 60px;
+}
+
+.subscribe-form {
+    margin: auto;
+    border: 1px solid rgb(250, 248, 248);
+    width: 60%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+    background-color: rgba(251, 84, 1, 0.248);
+
+}
+
+.subscribe-form input {
+    margin-top: 74px;
+    padding: 14px 30px;
+    border: 0;
 }
