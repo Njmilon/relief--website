@@ -12,8 +12,6 @@ body {
 }
 
 .center {
-    /* position: relative; */
-    position: absolute;
     padding-top: 10%;
     width: 100%;
     text-align: center;
@@ -79,6 +77,59 @@ body {
     border: 2px solid rgba(169, 35, 35, 0.671);
 }
 
-.form-amout {
-    margin-bottom: 50px;
+.form-control input {
+    margin-bottom: 30px;
+    border: 0;
+    padding: 15px 50px;
+    margin-left: 46px;
+    font-size: 15px;
+}
+
+#donate-plan {
+    margin-top: 150px;
+}
+
+#donate-plan h1 {
+    font-size: 46px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.text-align {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.text-align p {
+    color: gray;
+}
+
+.card {
+    display: flex;
+    padding-left: 10%;
+    padding-bottom: 60px;
+}
+
+.card-style {
+    width: 23%;
+    height: 240px;
+    border: 2px solid rgb(233, 224, 224);
+    margin: 18px;
+    padding: 44px 16px 8px 18px;
+    background-color: rgba(127, 255, 212, 0.197);
+    border-radius: 10px;
+    box-shadow: 6px 4px 5px grey;
+}
+
+.card-style:hover {
+    background-color: rgb(42, 165, 130);
+    box-shadow: 10px 6px 8px rgb(219, 203, 203);
+}
+
+.card-shelter {
+    background-color: rgba(251, 3, 218, 0.132);
+}
+
+.card-education {
+    background-color: rgba(251, 3, 3, 0.174);
 }
